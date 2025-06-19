@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
  2. **Run the firewall:**  sudo python3 real_firewall.py
  
- **Remove iptables rule after use:** sudo iptables -D INPUT -j NFQUEUE --queue-num 0
+ 3. **Remove iptables rule after use:** sudo iptables -D INPUT -j NFQUEUE --queue-num 0
 
 ---
 
